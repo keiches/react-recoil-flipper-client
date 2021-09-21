@@ -2,7 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-recoil-flipper-client.svg)](https://www.npmjs.com/package/react-recoil-flipper-client) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-Flipper React Provider to visualize [Recoil.js](https://recoiljs.org/) atoms and logs of its changes. This package is meant to be used with the `flipper-plugin-react-recoil` plugin from Flipper.
+Flipper React Provider to visualize [Recoil.js](https://recoiljs.org/) atoms and logs of its changes. This package is meant to be used with the `[flipper-plugin-react-recoil](https://github.com/BenJeau/flipper-plugin-react-recoil)` plugin, it must be installed from within Flipper.
 
 ## Install
 
