@@ -1,6 +1,6 @@
 {
   "name": "react-recoil-flipper-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flipper React Provider for the flipper-plugin-react-recoil",
   "author": "BenJeau",
   "license": "MIT",
