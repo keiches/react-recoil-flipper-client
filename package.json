@@ -1,10 +1,10 @@
 {
-  "name": "react-recoil-client",
+  "name": "react-recoil-flipper-client",
   "version": "1.0.0",
   "description": "Flipper React Provider for the flipper-plugin-react-recoil",
   "author": "BenJeau",
   "license": "MIT",
-  "repository": "BenJeau/react-recoil-client",
+  "repository": "BenJeau/react-recoil-flipper-client",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",

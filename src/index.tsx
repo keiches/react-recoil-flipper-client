@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useRecoilSnapshot } from 'recoil';
 import { addPlugin, Flipper } from 'react-native-flipper';
 
-const FlipperRecoilProvider: React.ReactNode = () => {
+const RecoilFlipperClient: React.ReactNode = () => {
   const snapshot = useRecoilSnapshot();
   const [flipperConnection, setFlipperConnection] =
     useState<Flipper.FlipperConnection | null>(null);
@@ -34,4 +34,4 @@ const FlipperRecoilProvider: React.ReactNode = () => {
   return null;
 };
 
-export default FlipperRecoilProvider;
+export default RecoilFlipperClient;
