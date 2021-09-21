@@ -6,14 +6,16 @@ Flipper React Provider to visualize [Recoil.js](https://recoiljs.org/) atoms and
 
 ## Install
 
+> This package depends on `react-native-flipper` and `recoil`, make to install them via npm or yarn
+
 ```bash
-yarn add react-recoil-client
+yarn add react-recoil-client react-native-flipper recoil
 ```
 
 Or
 
 ```bash
-npm install --save react-recoil-client
+npm install --save react-recoil-client react-native-flipper recoil
 ```
 
 ## Usage

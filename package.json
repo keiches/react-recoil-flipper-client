@@ -16,12 +16,10 @@
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build"
   },
-  "dependencies": {
+  "peerDependencies": {
+    "react": "^16.0.0",
     "recoil": "^0.4.1",
     "react-native-flipper": "^0.110.0"
-  },
-  "peerDependencies": {
-    "react": "^16.0.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.38",
