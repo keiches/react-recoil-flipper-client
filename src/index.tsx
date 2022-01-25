@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useRecoilSnapshot } from 'recoil';
 import { addPlugin, Flipper } from 'react-native-flipper';
 
@@ -9,7 +9,7 @@ const RecoilFlipperClient: React.FC<{ children?: never }> = () => {
 
   useEffect(() => {
     addPlugin({
-      getId: () => 'react-recoil',
+      getId: () => 'react-native-recoil',
       onConnect: setFlipperConnection,
       onDisconnect: () => {},
       runInBackground: () => true,
